@@ -1,5 +1,6 @@
 composer install
 php artisan key:generate
+php artisan db:mysql centribal_backend
 php artisan migrate
 php artisan db:faker
 php artisan serve
